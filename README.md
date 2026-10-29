@@ -1,32 +1,28 @@
+# Praktikum Pemrograman Web
 
-# Pemweb OBE - Modul 1
-
-## Identitas
-- Nama: Muh Andree Tanzili
-- NIM: 2440304036
+## Identitas Mata Kuliah
 - Mata Kuliah: Pemrograman Web
+- Nama Mahasiswa: [Nama Anda]
+- NIM: [NIM Anda]
+- Kelas: [Kelas Anda]
 
 ## Deskripsi Proyek
-Proyek ini merupakan tugas Modul 1 untuk mempelajari dasar HTML,
-menjalankan halaman web di localhost, dan menggunakan Developer Tools
-pada browser.
+Proyek ini merupakan praktikum dasar pemrograman web untuk menampilkan teks "Praktikum Pemrograman Web" menggunakan HTML dan mengaksesnya melalui server lokal Laragon.
 
-## Struktur Proyek
-- index.html: Halaman web utama.
-- README.md: Dokumentasi proyek.
-- REFLEKSI.md: Refleksi pembelajaran.
-- AI_USAGE_LOG.md: Catatan penggunaan AI.
+## Teknologi
+- HTML5
+- Laragon 5
+- PHP 8.4
+- Visual Studio Code
+- Git dan GitHub
 
 ## Cara Menjalankan
-1. Pastikan Laragon telah terpasang.
-2. Simpan folder proyek di C:\laragon\www\pemweb-obe.
-3. Jalankan Laragon dengan Start All.
+1. Jalankan Laragon 5.
+2. Klik Start All.
+3. Pastikan folder proyek berada di:
+   C:\laragon\www\pemweb-obe
 4. Buka browser.
-5. Akses http://localhost/pemweb-obe/.
+5. Akses http://localhost/pemweb-obe/
 
-## Pengujian
-Halaman diuji melalui browser menggunakan localhost.
-Screenshot tab Network disimpan sebagai screenshot-network.png.
-
-## Repository
-https://github.com/Andree-clmk/pemweb-obe-andree
+## URL Lokal
+http://localhost/pemweb-obe/
