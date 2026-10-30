@@ -1,0 +1,185 @@
+
+/* PENGATURAN DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f6f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background-color: #173b63;
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+/* NAVIGASI */
+.navbar {
+    background-color: #245580;
+    padding: 15px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* KONTEN */
+main {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #173b63;
+    margin-bottom: 15px;
+}
+
+/* HERO */
+.hero img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* LAYANAN */
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.service-card {
+    background-color: #edf4fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    color: #245580;
+    margin-bottom: 10px;
+}
+
+/* ARTIKEL */
+.article-card {
+    background-color: #edf4fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.article-card h3 {
+    margin-bottom: 10px;
+}
+
+/* FORM */
+.contact-form {
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+button {
+    background-color: #245580;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #173b63;
+}
+
+/* FOKUS KEYBOARD */
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+    outline: 3px solid #e49b24;
+    outline-offset: 3px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #173b63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar .container {
+        gap: 15px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+}
