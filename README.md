@@ -1,3 +1,4 @@
+feature/struktur-home
 
 # TechLearn - Website Pembelajaran Teknologi
 
@@ -55,3 +56,32 @@ ke branch main setelah review mandiri.
 ## Catatan
 Form kontak masih menggunakan validasi HTML
 dan belum terhubung dengan database atau email.
+
+# Proyek Individu - Sistem Informasi Perpustakaan Digital (SIPDU)
+
+## Deskripsi Proyek
+Sistem Informasi Perpustakaan Digital (SIPDU) merupakan halaman website yang dikembangkan untuk memenuhi tugas praktikum Pemrograman Web (OBE). Website ini menyajikan informasi dan layanan mengenai katalog buku digital, peminjaman buku online, serta manajemen anggota perpustakaan secara terintegrasi.
+
+## Teknologi yang Digunakan
+- **HTML5** (Menggunakan struktur semantik dan aksesibilitas dasar)
+- **CSS3** (Penataan tata letak dan desain responsif)
+- **Laragon 5** (Environment web server lokal)
+- **Git & GitHub** (Manajemen versi dan repository)
+
+## Fitur yang Selesai Dikembangkan
+- [x] Struktur HTML5 Semantik (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<form>`, `<footer>`)
+- [x] Hierarki Heading yang terstruktur (`h1`, `h2`, `h3`)
+- [x] Gambar dengan atribut deskriptif `alt` untuk aksesibilitas
+- [x] Formulir Kontak terhubung dengan elemen `<label>` dan validasi HTML
+- [x] Navigasi yang dapat diakses menggunakan keyboard (`Tab`)
+- [x] Tampilan responsif untuk perangkat komputer dan ponsel
+
+## Cara Menjalankan Website Secara Lokal
+1. Buka aplikasi **Laragon 5** lalu klik **Start All**.
+2. Pastikan folder proyek tersimpan di direktori:
+   `C:\laragon\www\pemweb-obe`
+3. Buka browser dan akses alamat berikut:
+   `http://localhost/pemweb-obe/`
+
+## Pengelolaan Versi (Git)
+Pengerjaan struktur halaman awal dilakukan menggunakan branch `feature/struktur-home` dengan minimal 3 commit bermakna, kemudian di-push ke GitHub dan di-merge ke branch `main`.
