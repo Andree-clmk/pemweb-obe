@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website informasi teknologi dan pembelajaran web.">
-    <title>TechLearn - Belajar Teknologi</title>
+    <meta name="description" content="Proyek Individu - Deskripsi singkat aplikasi atau website Anda.">
+    <title>Proyek Individu - Nama Proyek</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,8 +12,8 @@
     <!-- HEADER -->
     <header class="header">
         <div class="container">
-            <h1>TechLearn</h1>
-            <p>Belajar Teknologi dan Pemrograman Web</p>
+            <h1>Nama Proyek Individu</h1>
+            <p>Sistem Informasi / Website Layanan Berbasis Web</p>
         </div>
     </header>
 
@@ -22,8 +21,8 @@
     <nav class="navbar" aria-label="Navigasi utama">
         <div class="container">
             <a href="#beranda">Beranda</a>
-            <a href="#layanan">Layanan</a>
-            <a href="#artikel">Artikel</a>
+            <a href="#fitur">Fitur</a>
+            <a href="#informasi">Informasi</a>
             <a href="#kontak">Kontak</a>
         </div>
     </nav>
@@ -31,119 +30,67 @@
     <!-- KONTEN UTAMA -->
     <main class="container">
 
-        <!-- SECTION 1 -->
+        <!-- SECTION 1: Beranda -->
         <section id="beranda" class="hero">
-            <h2>Selamat Datang di TechLearn</h2>
+            <h2>Selamat Datang di Proyek Kami</h2>
             <p>
-                TechLearn merupakan website pembelajaran yang menyediakan
-                informasi mengenai teknologi, pemrograman, dan pengembangan
-                aplikasi.
+                Penjelasan singkat mengenai latar belakang, tujuan, serta fungsi utama dari proyek individu yang Anda kembangkan semester ini.
             </p>
-
-            <img
-                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1000"
-                alt="Seseorang sedang menggunakan laptop untuk belajar teknologi"
-            >
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000" alt="Ilustrasi dashboard sistem dan analisis data proyek">
         </section>
 
-        <!-- SECTION 2 -->
-        <section id="layanan" class="content-section">
-            <h2>Layanan Kami</h2>
-
+        <!-- SECTION 2: Fitur (Minimal 3 Section terpenuhi di sini) -->
+        <section id="fitur" class="content-section">
+            <h2>Fitur Utama</h2>
             <div class="service-list">
                 <article class="service-card">
-                    <h3>Pemrograman Web</h3>
-                    <p>
-                        Mempelajari HTML, CSS, JavaScript, dan teknologi
-                        pengembangan website.
-                    </p>
+                    <h3>Manajemen Data</h3>
+                    <p>Mengelola pencatatan dan database secara terstruktur dan efisien.</p>
                 </article>
-
                 <article class="service-card">
-                    <h3>Jaringan Komputer</h3>
-                    <p>
-                        Memahami konsep jaringan komputer, konfigurasi,
-                        server, dan internet.
-                    </p>
+                    <h3>Laporan Otomatis</h3>
+                    <p>Menyajikan rekapitulasi data dalam bentuk informasi yang mudah dibaca.</p>
                 </article>
-
                 <article class="service-card">
-                    <h3>Pengembangan Aplikasi</h3>
-                    <p>
-                        Mengenal proses pembuatan aplikasi dan
-                        pengembangan perangkat lunak.
-                    </p>
+                    <h3>Aksesibilitas Tinggi</h3>
+                    <p>Antarmuka responsif dan ramah pengguna di berbagai perangkat.</p>
                 </article>
             </div>
         </section>
 
-        <!-- SECTION 3 -->
-        <section id="artikel" class="content-section">
-            <h2>Artikel Terbaru</h2>
-
+        <!-- SECTION 3: Informasi / Artikel (Minimal 1 Article terpenuhi) -->
+        <section id="informasi" class="content-section">
+            <h2>Artikel & Pengumuman</h2>
             <article class="article-card">
-                <h3>Pentingnya Belajar Pemrograman Web</h3>
-
+                <h3>Perkembangan Terbaru Pengembangan Sistem</h3>
                 <p>
-                    Pemrograman web merupakan salah satu keterampilan
-                    penting di era digital. Dengan mempelajari HTML,
-                    CSS, dan JavaScript, seseorang dapat membuat
-                    website yang interaktif dan responsif.
-                </p>
-
-                <p>
-                    Penguasaan pemrograman web juga dapat menjadi
-                    dasar untuk mempelajari pengembangan aplikasi
-                    yang lebih kompleks.
+                    Bagian ini menjelaskan pembaruan terkini, teknologi yang digunakan, serta tahapan implementasi modul dalam proyek individu ini.
                 </p>
             </article>
         </section>
 
-        <!-- SECTION 4 -->
+        <!-- SECTION 4: Kontak (Formulir) -->
         <section id="kontak" class="content-section">
-            <h2>Hubungi Kami</h2>
-
-            <p>
-                Silakan isi formulir berikut untuk mengirimkan pesan.
-            </p>
-
+            <h2>Hubungi Pengembang</h2>
+            <p>Silakan isi formulir di bawah ini untuk mengirimkan masukan atau pertanyaan.</p>
+            
             <form class="contact-form" action="#" method="post">
-
                 <div class="form-group">
                     <label for="nama">Nama Lengkap</label>
-                    <input
-                        type="text"
-                        id="nama"
-                        name="nama"
-                        placeholder="Masukkan nama lengkap"
-                        required
-                    >
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Alamat Email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="contoh@email.com"
-                        required
-                    >
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
                 </div>
 
                 <div class="form-group">
                     <label for="pesan">Pesan</label>
-                    <textarea
-                        id="pesan"
-                        name="pesan"
-                        rows="5"
-                        placeholder="Tuliskan pesan Anda"
-                        required
-                    ></textarea>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda..." required></textarea>
                 </div>
 
                 <button type="submit">Kirim Pesan</button>
-
             </form>
         </section>
 
@@ -152,7 +99,7 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 TechLearn. Semua Hak Dilindungi.</p>
+            <p>&copy; 2026 Nama Anda - Proyek Individu Pemrograman Web.</p>
         </div>
     </footer>
 
