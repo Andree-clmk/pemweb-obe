@@ -2,9 +2,9 @@
 
 ## Identitas Mata Kuliah
 - Mata Kuliah: Pemrograman Web
-- Nama Mahasiswa: [Nama Anda]
-- NIM: [NIM Anda]
-- Kelas: [Kelas Anda]
+- Nama Mahasiswa: Muh. Andree Tanzili
+- NIM: 2440304036
+- Kelas: A1
 
 ## Deskripsi Proyek
 Proyek ini merupakan praktikum dasar pemrograman web untuk menampilkan teks "Praktikum Pemrograman Web" menggunakan HTML dan mengaksesnya melalui server lokal Laragon.
