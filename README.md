@@ -1,28 +1,57 @@
-# Praktikum Pemrograman Web
 
-## Identitas Mata Kuliah
-- Mata Kuliah: Pemrograman Web
-- Nama Mahasiswa: Muh. Andree Tanzili
-- NIM: 2440304036
-- Kelas: A1
+# TechLearn - Website Pembelajaran Teknologi
 
-## Deskripsi Proyek
-Proyek ini merupakan praktikum dasar pemrograman web untuk menampilkan teks "Praktikum Pemrograman Web" menggunakan HTML dan mengaksesnya melalui server lokal Laragon.
+## Deskripsi
+TechLearn merupakan website sederhana yang dibuat
+untuk memenuhi praktikum Pemrograman Web.
 
-## Teknologi
+Website ini menyediakan informasi mengenai:
+- Pemrograman Web
+- Jaringan Komputer
+- Pengembangan Aplikasi
+- Artikel teknologi
+- Formulir kontak
+
+## Teknologi yang Digunakan
 - HTML5
+- CSS3
 - Laragon 5
-- PHP 8.4
-- Visual Studio Code
 - Git dan GitHub
 
-## Cara Menjalankan
-1. Jalankan Laragon 5.
-2. Klik Start All.
-3. Pastikan folder proyek berada di:
+## Cara Menjalankan Website
+
+1. Instal dan buka aplikasi Laragon 5.
+2. Klik tombol Start All.
+3. Simpan folder proyek di:
    C:\laragon\www\pemweb-obe
 4. Buka browser.
-5. Akses http://localhost/pemweb-obe/
+5. Masukkan alamat:
+   http://localhost/pemweb-obe/
 
-## URL Lokal
-http://localhost/pemweb-obe/
+## Fitur yang Sudah Diselesaikan
+
+- Header dan navigasi website.
+- Struktur HTML semantik.
+- Minimal tiga section.
+- Artikel menggunakan elemen article.
+- Gambar dengan atribut alt.
+- Form kontak dengan label.
+- Navigasi keyboard menggunakan Tab.
+- Desain responsif menggunakan CSS.
+- Footer website.
+
+## Pengujian
+Pengujian dilakukan melalui browser menggunakan
+localhost dengan memeriksa struktur halaman,
+navigasi, gambar, form, dan aksesibilitas keyboard.
+
+## Pengelolaan Versi
+Pengerjaan dilakukan menggunakan Git dengan branch:
+feature/struktur-home
+
+Perubahan dikirim ke GitHub dan digabungkan
+ke branch main setelah review mandiri.
+
+## Catatan
+Form kontak masih menggunakan validasi HTML
+dan belum terhubung dengan database atau email.
